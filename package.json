@@ -1,12 +1,9 @@
 {
   "name": "flubaru-cli",
   "version": "0.0.1-alpha",
-  "description": "a proof-of-concept implementation",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
+    "command-line-args": "^5.1.1",
+    "naudiodon": "^2.2.4",
     "tcp-audio-stream": "git+https://github.com/slackjockey/tcp-audio-stream.git"
   },
   "author": "Salvador Ortiz",
